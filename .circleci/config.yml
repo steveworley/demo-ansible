@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    # fingerprint: 13:96:9f:bf:d2:dd:b9:a9:2e:b6:8d:31:03:b9:33:2e
     working_directory: ~/mern-starter
     docker:
       - image: circleci/node:4.8.2
